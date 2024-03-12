@@ -1,0 +1,17 @@
+$primary-color:Blue;
+$secondary-color:#ff22;
+$warning-color:rgba(236, 191, 11, 0.133);
+$danger-color: Red;
+$title-front-size:16px;
+$title-front-size-responseive:(sm:16px,md:26px,lg:36px);
+
+.text{
+    color: red;
+}
+body{
+    background-color: aqua;
+}
+button{
+    color: $danger-color;
+    background-color: $primary-color;
+}
