@@ -1,3 +1,4 @@
+/*
 *{
     background-color: bisque;
 }
@@ -16,4 +17,12 @@ h2{
 
 h1,h2,p{
     font-size: 35px;
+}
+*/
+
+body{
+    background-image: url(Mash_Kolkata2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
