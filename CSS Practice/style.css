@@ -18,7 +18,7 @@ h2{
 h1,h2,p{
     font-size: 35px;
 }
-*/
+
 
 body{
     background-image: url(Mash_Kolkata2.jpg);
@@ -29,4 +29,13 @@ body{
 
 h1{
     border-style: solid;
+}
+
+*/
+
+.my-div{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    border-radius: 1px 50px 1px 50px;
 }
