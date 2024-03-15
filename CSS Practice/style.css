@@ -1,0 +1,19 @@
+*{
+    background-color: bisque;
+}
+
+h2{
+    color: green;
+}
+
+.h1-text{
+    color: red;
+}
+
+#h1-id{
+    color: blue;
+}
+
+h1,h2,p{
+    font-size: 35px;
+}
