@@ -52,7 +52,6 @@ p{
     color: brown;
     font-family:fantasy;
 }
-*/
 .btn{
     background-color: brown;
     border-radius: 10px;
@@ -63,3 +62,12 @@ p{
     background-color: forestgreen;
     color: white;
 }
+img{
+    width: 500px;
+    height: auto;
+    filter:brightness(80%);
+    filter:blur(0.7px);
+
+
+}
+*/
