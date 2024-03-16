@@ -46,10 +46,20 @@ p{
 img{
     float: inline-end;
 }
-*/
 p{
     font-size: 30px;
     font-weight: 300;
     color: brown;
     font-family:fantasy;
+}
+*/
+.btn{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 30px;
+    color: rgb(26, 158, 219);
+}
+.btn:hover{
+    background-color: forestgreen;
+    color: white;
 }
