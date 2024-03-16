@@ -44,3 +44,6 @@ p{
 }
 */
 
+img{
+    float: inline-end;
+}
