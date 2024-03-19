@@ -1,5 +1,4 @@
-var x=10;
-var y=20;
-var z=x+y;
-document.write(z);
-console.log(z);
+var x=['Dhaka', 'Rangpur', 'Rajshahi'];
+
+document.write(x);
+console.log(x);
