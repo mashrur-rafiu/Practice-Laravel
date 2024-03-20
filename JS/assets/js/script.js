@@ -1,23 +1,6 @@
-/*var i;
-for(i=10;i<100;i=i+10){
-    if(i==30){
-        continue;
-    }
-    if(i==70){
-        break;
-    }
-    document.write(i+"<button>For Loop</button><br>");
+function subFunction(n1, n2){
+    let sub=n1+n2
+    document.write(sub+"<br>")
 }
-
-var i=10;
-while(i<100){
-    document.write(i+"<button>While Loop</button><br>");
-    i=i+10;
-}
-*/
-var i=10;
-do{
-    document.write(i+"<button>Do While Loop</button><br>")
-    i=i+10
-}
-while(i<100)
+subFunction(50,95)
+subFunction(13,77)
