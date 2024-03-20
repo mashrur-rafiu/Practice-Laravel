@@ -1,6 +1,6 @@
-function myName(name){
-    document.write("My name is "+name+".<br>")
+function myName(n1, n2){
+    return n1+n2;
 }
-myName("Mashrur")
-myName("Borshon")
-myName("Bokor")
+
+let newNumber = myName(4, 6)+11.5;
+document.write(newNumber);
