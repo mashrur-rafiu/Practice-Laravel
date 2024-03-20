@@ -1,20 +1,22 @@
-let Marks=14;
+let Marks=60;
 
-if(Marks>=80 && Marks<=100){
+switch(true){
+
+case(Marks<=100 && Marks>=80):
     document.write("A+");
-}
-else if(Marks>=70){
+break;
+case(Marks<80 && Marks>=70):
     document.write("A");
-}
-else if(Marks>=60){
+break;
+case(Marks<70 && Marks>=60):
     document.write("A-");
-}
-else if(Marks>=50){
+break;
+case(Marks<60 && Marks>=50):
     document.write("B")
-}
-else if(Marks>=40){
+break;
+case(Marks<50 && Marks>=40):
     document.write("C")
-}
-else{
+break;
+default:
     document.write("F")
 }
