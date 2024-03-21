@@ -1,6 +1,5 @@
-function myName(n1, n2){
-    return n1+n2;
+let students = ["Mashrur", "Deen", "Emon", "Faysal", "Tayeb"];
+let i;
+for(i=0; i<students.length; i=i+1){
+document.write(students[i]+"<br>")
 }
-
-let newNumber = myName(4, 6)+11.5;
-document.write(newNumber);
