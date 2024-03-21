@@ -1,5 +1,5 @@
 let students = ["Mashrur", "Deen", "Emon", "Faysal", "Tayeb"];
-let i;
-for(i=0; i<students.length; i=i+1){
-document.write(students[i]+"<br>")
-}
+
+for(let item in students){
+    document.write(students[item]+"<br>")
+    }
